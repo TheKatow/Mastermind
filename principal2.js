@@ -263,8 +263,7 @@ var action_au_click_valider = function () {
                 }
                 buttonContainer.appendChild(newButton);
             }
-            newlabel.innerHTML = " La solution";
-            buttonContainer.appendChild(newlabel);
+            document.getElementById('solution').innerHTML += " La solution";
         }
     }
 }
