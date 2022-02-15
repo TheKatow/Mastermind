@@ -1,0 +1,83 @@
+*{
+    background-color: bisque;
+}
+body{
+    margin: 50px;
+}
+#page{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+#container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 50%;
+}
+#choix{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 250px;  
+}
+/* #valider{
+    display: flex;
+    justify-content:center;
+} */
+#resultat1{
+    justify-content: center;
+}
+[id^="btn"]{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-right: 2%; 
+}
+#btnValider{
+    background-color: burlywood;
+    padding: auto;
+    margin-left: 50%;
+    width: 100px;
+    height: 50px;
+    box-shadow: black 2px 2px;
+}
+#btnRejouer{
+    background-color: rgb(204, 139, 54);
+    padding: auto;
+    margin-left: 50%;
+    width: 100px;
+    height: 50px;
+    box-shadow: black 2px 2px;
+}
+[class^="container2"]{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+#pourmoi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 250px; 
+}
+#nbessai{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 350px;
+}
+#solution{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 250px; 
+}
+[id^="button"] {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-right: 2%; 
+}

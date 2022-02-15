@@ -1,0 +1,7 @@
+Jeu du MasterMind
+
+1) L'ordinateur génére une solution aléatoire de 4 couleurs parmi 6 (on peut avoir plusieurs fois la même couleur) Rouge, Vert, Bleu, Jaune, Marron, Orange
+2) Vous proposez une solution : l'ordinateur vous dit combien vous avez de biens placés et mal placés
+3) On joue jusqu'à trouver la solution ou dépasser 10 essais
+4) Rajouter un chronométre
+

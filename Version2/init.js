@@ -1,0 +1,9 @@
+//tag=1
+document.getElementById("btnCouleur1").tag = 1;
+document.getElementById("btnCouleur1").style.backgroundColor = "green";
+document.getElementById("btnCouleur2").tag = 1;
+document.getElementById("btnCouleur2").style.backgroundColor = "green";
+document.getElementById("btnCouleur3").tag = 1;
+document.getElementById("btnCouleur3").style.backgroundColor = "green";
+document.getElementById("btnCouleur4").tag = 1;
+document.getElementById("btnCouleur4").style.backgroundColor = "green";
